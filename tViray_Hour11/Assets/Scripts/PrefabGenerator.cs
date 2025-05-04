@@ -8,7 +8,12 @@ public class PrefabGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        for (int prefabs = 0; prefabs < 10;)
+        {
+            prefabs += 1;
+            Instantiate(prefab, new Vector3(transform.position.x + prefabs, transform.position.y, transform.position.z), transform.rotation);
+            print(prefabs);
+        }
     }
 
     // Update is called once per frame
@@ -24,4 +29,5 @@ public class PrefabGenerator : MonoBehaviour
             Instantiate(prefab, transform.position, transform.rotation);
         }
     }
+
 }

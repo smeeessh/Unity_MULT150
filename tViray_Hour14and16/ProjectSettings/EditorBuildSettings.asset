@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/tViray_Hour14.unity
+    guid: c6d1ccecbc1bf7e468a718a3322fd7f4
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 756f462df24c87a4393f017de30cf498
+  m_configObjects: {}
